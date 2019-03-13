@@ -16,6 +16,7 @@ public interface UserDao {
    public User findUserById(int userId);
 //     kla;sd
 //    wotest
+//    1111
    public User findUserByName(String userName);
 
 
