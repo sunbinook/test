@@ -14,7 +14,8 @@ public interface UserDao {
 
     @Select("select * from t_user where user_id=#{userId}")
    public User findUserById(int userId);
-
+//     kla;sd
+//    wotest
    public User findUserByName(String userName);
 
 
