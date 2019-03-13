@@ -1,0 +1,35 @@
+##tomcat
+#server.port=9090
+##db
+#spring.datasource.url=jdbc:oracle:thin@localhost:1521:xe
+#spring.datasource.username=springboot
+#spring.datasource.password=springboot
+#spring.datasource.driver-class-name=oracle.jdbc.driver.OracleDriver
+#server:
+#  port: 9090
+#spring:
+# datasource:
+# url: jdbc:oracle:thin:@localhost:1521:xe
+# username: springboot
+# userpassword: springboot
+# driver-class-name: oracle:jdbc.driver.OracleDriver
+server:
+  port: 9090
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/sc1809?useUnicode=true&characterEncoding=UTF-8&useSSL=false
+    username: root
+    password: sc
+    driver-class-name: com.mysql.jdbc.Driver
+#mybatis
+mybatis:
+  configuration:
+    map-underscore-to-camel-case: true
+#log
+logging:
+  level: info
+  level.com.example: debug
+
+
+
+
